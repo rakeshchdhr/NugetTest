@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Centiro.TestNuget</id>
+    <version>0.0.1</version>
+    <authors>Rakesh Chaudhari</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test Nuget for adding two numbers</description>
+  </metadata>
+  <dependencies>
+  <group targetFramework=".NETFramework4.5">
+    <dependency id="<imported library>" version="<library version>" />
+  </group>
+</dependencies>
+  <files>
+        <!-- Include everything in \build -->
+        <file src="TestNuget.Core\bin\Debug\**" target="lib/net45" />
+
+        <!-- Other files -->
+        <!-- ... -->
+    </files>
+</package>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C03B2F2-B70B-42DE-B18A-FD4FBD4B6D45}"
+	ProjectSection(SolutionItems) = preProject
+		Centiro.TestNuget.nuspec = Centiro.TestNuget.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNuget.Core", "TestNuget.Core\TestNuget.Core.csproj", "{DEE316E9-8551-432D-A94F-C5BFA1E08F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE316E9-8551-432D-A94F-C5BFA1E08F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE316E9-8551-432D-A94F-C5BFA1E08F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE316E9-8551-432D-A94F-C5BFA1E08F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE316E9-8551-432D-A94F-C5BFA1E08F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66321FD7-11FD-4093-AC49-88FEA7C8EA1C}
+	EndGlobalSection
+EndGlobal
